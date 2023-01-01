@@ -1,27 +1,18 @@
-# netwiz-roomba-esp8266
-From https://git.crc.id.au/netwiz/ESP8266_Code/src/branch/master/Roomba
+# Controlling the Roomba 600 series with Home Automation
 
 # Parts required
-ESP-01 ESP8266
-https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-
-Buck converter
-https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-
-PNP Transistor
-https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328
+[ESP-01 ESP8266](https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-)
+[Buck converter](https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-)
+[PNP Transistor](https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328)
 
 ## Original Amazon Parts
 ESP-01: https://amzn.to/2qVB2p8
 PNP Transistors: https://amzn.to/2FaUfrS
 Buck Converters: https://amzn.to/2K7FY33
 
-# References
-Roomba OI Document: https://cfpm.org/~peter/bfz/iRobot_Roomba_500_Open_Interface_Spec.pdf
-
-# Credit
-https://www.crc.id.au/hacking-the-roomba-600/
-
+# Usage
 Rewritten to use the new MQTT Vacuum integration in Home Assistant:
-	https://www.home-assistant.io/integrations/vacuum.mqtt/
+https://www.home-assistant.io/integrations/vacuum.mqtt/
 
 Configure in Home Assistant `configuration.yaml` as follows:
 ```
@@ -77,3 +68,10 @@ I wrote a script that checks the HTTP_X_ESP8266_STA_MAC header provided by the A
 If you don't want to do any of the auto-updating, you can just visit the IP address off the ESP01 and click the Update link and upload a new binary that way.
 
 The source code for this project is now in a git repository: View the source
+
+# Credits
+https://www.crc.id.au/hacking-the-roomba-600/
+https://git.crc.id.au/netwiz/ESP8266_Code/src/branch/master/Roomba
+
+# References
+Roomba OI Document: https://cfpm.org/~peter/bfz/iRobot_Roomba_500_Open_Interface_Spec.pdf
