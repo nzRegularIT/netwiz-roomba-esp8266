@@ -1,18 +1,14 @@
 # Controlling the Roomba 600 series with Home Automation
 
 # Parts required
-[ESP-01 ESP8266](https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-)
-
-[Buck converter](https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-)
-
-[PNP Transistor](https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328)
+- [ESP-01 ESP8266](https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-)
+- [Buck converter](https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-)
+- [PNP Transistor](https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328)
 
 ## Original Amazon Parts
-ESP-01: https://amzn.to/2qVB2p8
-
-PNP Transistors: https://amzn.to/2FaUfrS
-
-Buck Converters: https://amzn.to/2K7FY33
+- [ESP-01](https://amzn.to/2qVB2p8)
+- [PNP Transistors](https://amzn.to/2FaUfrS)
+- [Buck Converters](https://amzn.to/2K7FY33)
 
 # Usage
 Rewritten to use the new MQTT Vacuum integration in Home Assistant:
@@ -34,10 +30,9 @@ vacuum:
     - battery
 ```
 
-# References from https://www.crc.id.au/hacking-the-roomba-600/
+# Background
+
 I was in the market for a new vacuum. My old manual one was on the way out, and I'd heard a lot about Roombas, but never actually seen one. I didn't know what they were like, if they were useful, or how well they worked. I came across this YouTube video from The Hook Up which describes hacking the Roomba's 'Open Interface' to talk to it over a serial link. Considering the base level Roombas were cheaper than a manual vacuum, I thought I'd give it a go.
-https://www.youtube.com/watch?v=t2NgA8qYcFI
-https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ
 
 The good news, the specification is completely documented. https://www.irobotweb.com/-/media/MainSite/PDFs/About/STEM/Create/iRobot_Roomba_600_Open_Interface_Spec.pdf?la=en
 
@@ -75,7 +70,12 @@ The source code for this project is now in a git repository: View the source
 
 # Credits
 https://www.crc.id.au/hacking-the-roomba-600/
+
 https://git.crc.id.au/netwiz/ESP8266_Code/src/branch/master/Roomba
+
+https://www.youtube.com/watch?v=t2NgA8qYcFI
+
+https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ
 
 # References
 Roomba OI Document: https://cfpm.org/~peter/bfz/iRobot_Roomba_500_Open_Interface_Spec.pdf
