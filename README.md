@@ -2,12 +2,16 @@
 
 # Parts required
 [ESP-01 ESP8266](https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-)
+
 [Buck converter](https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-)
+
 [PNP Transistor](https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328)
 
 ## Original Amazon Parts
 ESP-01: https://amzn.to/2qVB2p8
+
 PNP Transistors: https://amzn.to/2FaUfrS
+
 Buck Converters: https://amzn.to/2K7FY33
 
 # Usage
