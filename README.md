@@ -3,6 +3,7 @@
 # Parts required
 - [ESP-01 ESP8266](https://surplustronics.co.nz/products/9606-wifi-wireless-module-wireless-esp-01-esp8266-serial-)
 - [Buck converter](https://surplustronics.co.nz/products/7518-dc-to-dc-step-up-step-down-converter-buck-boost-)
+- [USB to TTL Serial Adapter](https://surplustronics.co.nz/products/9657-ftdi-usb-33v-55v-to-ttl-serial-adapter-ft232rl)
 - [PNP Transistor](https://www.jaycar.co.nz/2n3906-pnp-transistor/p/ZT2328)
 
 ## Original Amazon Parts
