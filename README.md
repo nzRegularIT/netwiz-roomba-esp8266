@@ -82,3 +82,6 @@ https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ
 Roomba OI Document: https://cfpm.org/~peter/bfz/iRobot_Roomba_500_Open_Interface_Spec.pdf
 https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/
 https://www.instructables.com/How-to-use-the-ESP8266-01-pins/
+https://www.instructables.com/Program-ESP01-Using-FTDI/
+https://www.allaboutcircuits.com/projects/breadboard-and-program-an-esp-01-circuit-with-the-arduino-ide/
+https://www.allaboutcircuits.com/projects/flashing-the-ESP-01-firmware-to-SDK-v2.0.0-is-easier-now/
