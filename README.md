@@ -80,3 +80,5 @@ https://www.youtube.com/channel/UC2gyzKcHbYfqoXA5xbyGXtQ
 
 # References
 Roomba OI Document: https://cfpm.org/~peter/bfz/iRobot_Roomba_500_Open_Interface_Spec.pdf
+https://www.instructables.com/Getting-Started-With-the-ESP8266-ESP-01/
+https://www.instructables.com/How-to-use-the-ESP8266-01-pins/
